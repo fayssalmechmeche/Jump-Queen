@@ -88,7 +88,7 @@ public class jumpqueen : MonoBehaviour
         if (collision.gameObject.tag == "WallV")
             {
 
-                rb.velocity = new Vector2(reboundSpeed, -reboundSpeed * rb.velocity.y / Mathf.Abs(rb.velocity.y));
+                rb.velocity = new Vector2(reboundSpeed, -reboundSpeed * -rb.velocity.y / Mathf.Abs(rb.velocity.y));
             }
             else if (collision.gameObject.tag == "Wall")
             {
