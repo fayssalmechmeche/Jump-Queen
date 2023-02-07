@@ -855,6 +855,7 @@ MonoBehaviour:
   normalMat: {fileID: 0}
   canJump: 1
   jumpValue: 0
+  reboundSpeed: 10
 --- !u!114 &1827957560
 MonoBehaviour:
   m_ObjectHideFlags: 0
