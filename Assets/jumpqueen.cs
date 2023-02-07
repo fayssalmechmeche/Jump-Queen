@@ -85,9 +85,13 @@ public class jumpqueen : MonoBehaviour
 
      void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Wall")
+        if (collision.gameObject.tag == "WallV")
             {
 
+                rb.velocity = new Vector2(reboundSpeed, -reboundSpeed * rb.velocity.x);
+            }
+            else if (collision.gameObject.tag == "Wall")
+            {
                 rb.velocity = new Vector2(-reboundSpeed, reboundSpeed);
             }
     }
