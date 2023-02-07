@@ -13,6 +13,8 @@ public class jumpqueen : MonoBehaviour
     public PhysicsMaterial2D bounceMat, normalMat;
     public bool canJump = true;
     public float jumpValue = 0.0f;
+
+    public float reboundSpeed = 10f;
     
 
     void Start()
@@ -79,5 +81,14 @@ public class jumpqueen : MonoBehaviour
     {
         Gizmos.color = Color.green;
         Gizmos.DrawCube(new Vector2(gameObject.transform.position.x, gameObject.transform.position.y - 0.5f), new Vector2(0.9f, 0.2f));
+    }
+
+     void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Wall")
+            {
+
+                rb.velocity = new Vector2(-reboundSpeed, reboundSpeed);
+            }
     }
 } 
