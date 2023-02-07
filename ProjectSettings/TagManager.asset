@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Wall
   - WallV
+  - WallVD
   layers:
   - Default
   - TransparentFX

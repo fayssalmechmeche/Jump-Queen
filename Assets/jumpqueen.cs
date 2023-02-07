@@ -14,7 +14,7 @@ public class jumpqueen : MonoBehaviour
     public bool canJump = true;
     public float jumpValue = 0.0f;
 
-    public float reboundSpeed = 10f;
+    public float reboundSpeed = 5f;
     
 
     void Start()
@@ -83,16 +83,19 @@ public class jumpqueen : MonoBehaviour
         Gizmos.DrawCube(new Vector2(gameObject.transform.position.x, gameObject.transform.position.y - 0.5f), new Vector2(0.9f, 0.2f));
     }
 
-     void OnCollisionEnter2D(Collision2D collision)
+     /* void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "WallV")
             {
-
-                rb.velocity = new Vector2(reboundSpeed, -reboundSpeed * -rb.velocity.y / Mathf.Abs(rb.velocity.y));
+                 rb.velocity = new Vector2(reboundSpeed, -reboundSpeed * -rb.velocity.y / Mathf.Abs(rb.velocity.y));
+            }
+            else if (collision.gameObject.tag == "WallVD")
+            {
+                rb.velocity = new Vector2(-reboundSpeed,-reboundSpeed * -rb.velocity.y / Mathf.Abs(rb.velocity.y));
             }
             else if (collision.gameObject.tag == "Wall")
             {
                 rb.velocity = new Vector2(-reboundSpeed, reboundSpeed);
             }
-    }
+    } */
 } 
