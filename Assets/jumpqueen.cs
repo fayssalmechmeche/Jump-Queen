@@ -83,19 +83,12 @@ public class jumpqueen : MonoBehaviour
         Gizmos.DrawCube(new Vector2(gameObject.transform.position.x, gameObject.transform.position.y - 0.5f), new Vector2(0.9f, 0.2f));
     }
 
-     /* void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "WallV")
-            {
-                 rb.velocity = new Vector2(reboundSpeed, -reboundSpeed * -rb.velocity.y / Mathf.Abs(rb.velocity.y));
-            }
-            else if (collision.gameObject.tag == "WallVD")
-            {
-                rb.velocity = new Vector2(-reboundSpeed,-reboundSpeed * -rb.velocity.y / Mathf.Abs(rb.velocity.y));
-            }
-            else if (collision.gameObject.tag == "Wall")
-            {
-                rb.velocity = new Vector2(-reboundSpeed, reboundSpeed);
-            }
-    } */
+       if( collision.gameObject.tag == "Gems") {
+            Destroy(collision.gameObject);
+       }
+    }
+
+
 } 
