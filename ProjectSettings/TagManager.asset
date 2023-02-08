@@ -8,6 +8,7 @@ TagManager:
   - WallV
   - WallVD
   - Gems
+  - Players
   layers:
   - Default
   - TransparentFX
