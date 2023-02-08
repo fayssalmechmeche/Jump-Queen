@@ -53,7 +53,7 @@ public class jumpqueen : MonoBehaviour
             rb.velocity = new Vector2(0.0f, rb.velocity.y);
         }
 
-        if(jumpValue >= 13f && isGrounded)
+        if(jumpValue >= 23f && isGrounded)
         {
             float tempx = moveInput * walkSpeed;
             float tempy = jumpValue;
