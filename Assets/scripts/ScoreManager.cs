@@ -22,7 +22,13 @@ public class ScoreManager : MonoBehaviour
     {
         score += coinValue;
         text.text = " X " + score.ToString();
+        PlayerPrefs.SetInt("score", score);
     }
-
     
+    public int GetScore()
+    {
+        PlayerPrefs.GetInt("score");
+        text.text = score.ToString();
+        return score;
+    }
 }
