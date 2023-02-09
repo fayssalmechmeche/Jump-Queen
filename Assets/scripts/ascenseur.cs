@@ -5,7 +5,7 @@ using UnityEngine;
 public class ascenseur : MonoBehaviour
 {
      [SerializeField] private Transform targetA, targetB; 
-     private float speed = 1f; //Change t$$anonymous$$s to suit your game.
+     [SerializeField] private float speed = 1f; //Change t$$anonymous$$s to suit your game.
      private bool switcanonymousng = false;
      void Update()
      {
