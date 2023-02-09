@@ -45,7 +45,7 @@ public class jumpqueen : MonoBehaviour
 
         if(Input.GetKey("space") && isGrounded && canJump)
         {
-            jumpValue += 0.1f;
+            jumpValue += 25f * Time.deltaTime;
         }
 
         if(Input.GetKeyDown("space") && isGrounded && canJump)
