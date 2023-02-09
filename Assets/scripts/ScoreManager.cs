@@ -13,9 +13,18 @@ public class ScoreManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         if (instance == null)
         {
             instance = this;
+        }else{
+           
+        
+        int scoreFinal = PlayerPrefs.GetInt("score");   
+        if(scoreFinal == null){
+            scoreFinal = 0;
+        }
+        text.text = scoreFinal.ToString();
         }
     }
     public void ChangeScore(int coinValue)
