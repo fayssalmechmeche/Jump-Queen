@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 
 
+
 public class changeScene : MonoBehaviour
 {
 
-    
+    Timer timer;
     
     public void ChangeScene(string sceneName)
     {
@@ -26,7 +27,8 @@ public class changeScene : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-       
+
+        
             SceneManager.LoadScene("HighScore");
         
     }
