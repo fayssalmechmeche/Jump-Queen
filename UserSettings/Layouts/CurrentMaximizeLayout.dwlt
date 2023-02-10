@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 6673
+  controlID: 98
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -86,7 +86,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 6674
+  controlID: 99
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 6675
+  controlID: 100
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,9 +224,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: cc130000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 46c4fffff6c4ffff54c6fffff6c6ffff4cd2ffff82dfffff12f0ffff76f1ffff18f2ffff06f4ffff1ef4ffff22f4ffff1afbffffaa690000c4b20000e2b3000014b400001ebd00004cbd000052be000080be0000
+      m_SelectedIDs: b49f0000
+      m_LastClickedID: 40884
+      m_ExpandedIDs: 46c4fffff6c4ffff54c6fffff6c6ffff4cd2ffff82dfffff12f0ffff76f1ffff18f2ffff3ef3ffff06f4ffff1ef4ffff22f4ffff22f8ffff1afbffffaa6900004a9e0000789e0000eca000000aa200003ca20000c4b20000e2b3000014b400001ebd00004cbd000052be000080be0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -354,7 +354,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 26}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -557,9 +557,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.8722883, y: 2.947897, z: 0.039129328}
+    m_Target: {x: -12.923555, y: 8.234369, z: 362.3457}
     speed: 2
-    m_Value: {x: 1.8722883, y: 2.947897, z: 0.039129328}
+    m_Value: {x: -12.923555, y: 8.234369, z: 362.3457}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -610,9 +610,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.200774
+    m_Target: 4.7336383
     speed: 2
-    m_Value: 6.200774
+    m_Value: 4.7336383
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -705,22 +705,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/scripts
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/fayssal/Documents/GitHub/Jump-Queen
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 046a0000
-    m_LastClickedID: 27140
-    m_ExpandedIDs: 00000000f2690000f4690000f669000000ca9a3bffffff7f
+    m_SelectedIDs: 726f0000
+    m_LastClickedID: 28530
+    m_ExpandedIDs: 000000000a6f00004c7500005e9d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -748,7 +748,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f2690000f4690000f669000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000000a6f00004c7500005e9d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -773,8 +773,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: cc130000
-    m_LastClickedInstanceID: 5068
+    m_SelectedInstanceIDs: b49f0000
+    m_LastClickedInstanceID: 40884
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000a86e000000850000
     m_RenameOverlay:
