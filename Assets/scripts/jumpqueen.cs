@@ -19,6 +19,7 @@ public class jumpqueen : MonoBehaviour
 
     void Start()
     {
+        PlayerPrefs.SetInt("score",0);
         rb = gameObject.GetComponent<Rigidbody2D>();
     }
 
